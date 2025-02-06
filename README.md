@@ -33,3 +33,9 @@ Ensure you have:
 ```sh
 git clone https://github.com/YOUR_GITHUB_USERNAME/devops-pythonwebapp.git
 cd devops-pythonwebapp
+
+
+
+python -m venv venv
+venv\Scripts\activate     # For Windows
+pip install -r requirements.txt
